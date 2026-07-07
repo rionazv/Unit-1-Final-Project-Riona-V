@@ -2,7 +2,7 @@ import './App.css'
 import Footer from './components/Footer'
 import GalleryBody from './components/GalleryBody'
 import Header from './components/Header.'
-import NavMenu from './components/NavMenu'
+import NavMenu from './components/nav-components/NavMenu'
 
 function App() {
 
