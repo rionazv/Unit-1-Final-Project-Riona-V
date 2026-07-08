@@ -1,0 +1,22 @@
+#gallery-section {
+  background-color: lightsalmon;
+
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  
+  flex: 1;
+  align-content: start;
+  overflow: hidden;
+  overflow-y: scroll;
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.gallery-item {
+  aspect-ratio: 1;
+  background-color: greenyellow;
+}
