@@ -1,0 +1,92 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+  border: 1px solid black;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#header-section {
+    background-color: peachpuff;
+    width: 100%;
+    height: 15vh;
+    display: inherit;
+    justify-content: left;
+    align-items: inherit;
+  }
+
+  #nav-section {
+    background-color: lightblue;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #nav-dropdown {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+  }
+
+  #sticker-set {
+    width: 90%;
+    height: 80%;
+  }
+
+  #nav-icons {
+    display: inherit;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    overflow-x: auto;
+  }
+
+  .chibi-icon {
+    height: 90%;
+    margin: 0px 5px;
+  }
+
+  #gallery-section {
+    background-color: lightsalmon;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+  }
+
+  #footer-section {
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 5vh;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+  }  
+
+
+/* DESKTOP STYLES */
+@media (min-width: 992px) {
+  
+}
+
+/* TABLET STYLES */
+@media (min-width: 968px) {
+
+}
+
+/* MOBILE STYLES */
+@media (max-width: 576) {
+
+}

@@ -1,11 +1,20 @@
 import './App.css'
+import Footer from './components/Footer'
+import GalleryBody from './components/GalleryBody'
+import Header from './components/Header.'
+import NavMenu from './components/nav-components/NavMenu'
 
 function App() {
 
   return (
-    <>
-      <p>Hello, React!</p>
-    </>
+    <div id='content'>
+    
+      <Header/>
+      <NavMenu/>
+      <GalleryBody/>
+      <Footer/>
+
+    </div>
   )
 }
 

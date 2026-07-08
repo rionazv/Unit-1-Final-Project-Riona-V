@@ -10,3 +10,7 @@ This project serves two purposes:
 ## Changelog
 ### [2026-07-06] - Project created
 - **Added:** Empty project skeleton. Fresh Vite project using React and Javascript. Added react-router dependency.
+### [2026-07-07] - Project created
+- **Added:** Dropdown and navigation child elements.
+- **Added:** Placeholder content in header and footer.
+- **Added:** Chibi icons to assets.
