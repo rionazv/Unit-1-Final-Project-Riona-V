@@ -6,9 +6,10 @@ export default function NavDropdown() {
             
             <select name="sticker-set" id="sticker-set">
 
-                <option value="set 1">Set 1</option>
-                <option value="set 2">Set 2</option>
-                <option value="set 3">Set 3</option>
+                <option value="set 1" selected>All</option>
+                <option value="set 2">From Finality, the Origin</option>
+                <option value="set 3">Soaring Good Fortune</option>
+                <option value="set 3">Dance of Life and Death</option>
 
             </select>
 

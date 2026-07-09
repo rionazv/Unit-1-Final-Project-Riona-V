@@ -13,7 +13,7 @@ export default function GalleryBody() {
                 <GalleryItem 
                 key={sticker.id} 
                 src={sticker.url} 
-                alt={sticker.characters}
+                characters={sticker.characters}
                 />
                 
             ))}

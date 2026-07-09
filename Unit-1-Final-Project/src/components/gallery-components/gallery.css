@@ -20,6 +20,13 @@
 .gallery-item {
   aspect-ratio: 1;
   background-color: greenyellow;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px;
 }
 
 .sticker {
