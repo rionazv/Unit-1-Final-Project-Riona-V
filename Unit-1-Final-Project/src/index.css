@@ -40,16 +40,22 @@ div {
 
 
 /* DESKTOP STYLES */
-@media (min-width: 992px) {
-  
+@media screen and (min-width: 768px) {
+  #gallery-section {
+    grid-template-columns: repeat(8, 1fr);
+  }
 }
 
 /* TABLET STYLES */
-@media (min-width: 968px) {
-
+@media screen and (max-width: 768px) {
+  #gallery-section {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /* MOBILE STYLES */
-@media (max-width: 576) {
-
+@media screen and (max-width: 576px) {
+  #gallery-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
