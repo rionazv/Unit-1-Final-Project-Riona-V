@@ -1,9 +1,14 @@
-export default function GalleryItem() {
-    
+export default function GalleryItem(props) {
+
     return (
 
         <div className="gallery-item">
-            picture
+            <img 
+                className="sticker"
+                src={props.src}
+                alt={props.characters}
+                title={props.characters}
+            />
         </div>
 
     );

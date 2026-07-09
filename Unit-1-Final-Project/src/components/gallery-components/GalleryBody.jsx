@@ -1,45 +1,23 @@
-import GalleryItem from "./GalleryItem";
+import { stickerData } from "../../mock-data/stickerData.js";
+import GalleryItem from "./GalleryItem.jsx";
 
 export default function GalleryBody() {
     
     return (
+        
 
         <main id="gallery-section">
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
+            
+            {stickerData.map( sticker => (
 
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
+                <GalleryItem 
+                key={sticker.id} 
+                src={sticker.url} 
+                alt={sticker.characters}
+                />
+                
+            ))}
 
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
-            <GalleryItem/>
         </main>
 
     );
