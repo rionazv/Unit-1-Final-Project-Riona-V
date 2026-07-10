@@ -1,5 +1,6 @@
 import { stickerData } from "../../mock-data/stickerData.js";
 import GalleryItem from "./GalleryItem.jsx";
+import NoResultsNotif from "./NoResultsNotif.jsx";
 
 export default function GalleryBody({galleryState}) {
 
@@ -22,6 +23,10 @@ export default function GalleryBody({galleryState}) {
 
         }
 
+    }
+
+    if(stickersToRender.length === 0) {
+        return <NoResultsNotif/>
     }
     
     // RENDER THE ARRAY
