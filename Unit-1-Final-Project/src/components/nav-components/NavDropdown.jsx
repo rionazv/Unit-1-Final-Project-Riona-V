@@ -1,22 +1,17 @@
-import { useEffect, useState } from "react";
+export default function NavDropdown({setGalleryState}) {
 
-export default function NavDropdown() {
-
-    const [galleryState, setGalleryState] = useState("All");
-    
+    // HANDLE CHANGE IN DROPDOWN
     function handleChange(event) {
 
+        // UPDATE THE STATE OF THE DROPDOWN WITH THE SELECTED ITEM
         const newGalleryState = event.target.value;
         setGalleryState(newGalleryState);
 
     }
 
-    useEffect(() => {
-        console.log(galleryState);
-    }, [galleryState]);
-
     return (
 
+        // CREATE THE DROPDOWN - FOR NOW, SELECTIONS ARE HARDCODED
         <div id="nav-dropdown">
             
             <select name="sticker-set" id="sticker-set" onChange={handleChange}>
