@@ -1,4 +1,4 @@
-
+import { valkData } from "../../mock-data/valkData";
 
 export default function NavIcons() {
     
@@ -6,9 +6,17 @@ export default function NavIcons() {
 
         <div id="nav-icons">
             
-            <img className="chibi-icon" src="./src/assets/valk-chibi-icons/kiana.png" alt="Kiana Kaslana" title="Kiana Kaslana"/>
-            <img className="chibi-icon" src="./src/assets/valk-chibi-icons/mei.png" alt="Raiden Mei" title="Raiden Mei"/>
-            <img className="chibi-icon" src="./src/assets/valk-chibi-icons/bronya.png" alt="Bronya Zaychik" title="Bronya Zaychik"/>
+            {valkData.map( valk => (
+            
+                            <img 
+                            className="chibi-icon"
+                            key={valk.id} 
+                            src={valk.url} 
+                            alt={valk.characters}
+                            title={valk.characters}
+                            />
+                            
+                        ))}
 
         </div>
 

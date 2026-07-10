@@ -1,5 +1,10 @@
-html {
+@import url(./components/nav-components/nav.css);
+@import url(./components/gallery-components/gallery.css);
+
+html, body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 div {
@@ -7,86 +12,50 @@ div {
 }
 
 #content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #header-section {
-    background-color: peachpuff;
-    width: 100%;
-    height: 15vh;
-    display: inherit;
-    justify-content: left;
-    align-items: inherit;
-  }
+  background-color: peachpuff;
+  width: 100%;
+  height: 15vh;
+  display: inherit;
+  justify-content: left;
+  align-items: inherit;
+}
 
-  #nav-section {
-    background-color: lightblue;
-    width: 100%;
-    height: 7vh;
-    display: flex;
-    flex-direction: row;
-  }
-
-  #nav-dropdown {
-    display: inherit;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-  }
-
-  #sticker-set {
-    width: 90%;
-    height: 80%;
-  }
-
-  #nav-icons {
-    display: inherit;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    overflow-x: auto;
-  }
-
-  .chibi-icon {
-    height: 90%;
-    margin: 0px 5px;
-  }
-
-  #gallery-section {
-    background-color: lightsalmon;
-    width: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: wrap;
-    justify-content: center;
-  }
-
-  #footer-section {
-    background-color: lightsteelblue;
-    width: 100%;
-    height: 5vh;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-  }  
+#footer-section {
+  background-color: lightsteelblue;
+  width: 100%;
+  height: 3vh;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+}  
 
 
 /* DESKTOP STYLES */
-@media (min-width: 992px) {
-  
+@media screen and (min-width: 768px) {
+  #gallery-section {
+    grid-template-columns: repeat(8, 1fr);
+  }
 }
 
 /* TABLET STYLES */
-@media (min-width: 968px) {
-
+@media screen and (max-width: 768px) {
+  #gallery-section {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /* MOBILE STYLES */
-@media (max-width: 576) {
-
+@media screen and (max-width: 576px) {
+  #gallery-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
