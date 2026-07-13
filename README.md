@@ -8,6 +8,10 @@ This project serves two purposes:
 - **Organization.** I plan to expand the assets that I collect over time and present them in a simple, digestible, and filterable format for those who would like to download them. No more jumping between Hoyolab, Miyoushe, Baike, and unmaintained wikis!
 
 ## Changelog
+### [2026-07-13]
+- **Changed:** Page layout to horizontal flow to better accommodate future mobile layouts.
+- **Added:** Download button for each individual image.
+- **Added:** Visual indicator as to which valkyrie icon is clicked in the filter menu (no functionality).
 ### [2026-07-10]
 - **Added:** Logic to filter the stickers by set using the dropdown menu.
 ### [2026-07-09]
