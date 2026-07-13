@@ -1,8 +1,13 @@
+import { useState } from "react";
 import { stickerData } from "../../mock-data/stickerData.js";
 import GalleryItem from "./GalleryItem.jsx";
+import Modal from "./Modal.jsx";
 import NoResultsNotif from "./NoResultsNotif.jsx";
 
 export default function GalleryBody({galleryState}) {
+
+    // SET STATE: SHOW MODAL OR NOT?
+    const [showModal, setShowModal] = useState(false);
 
     // CREATE AN ARRAY THAT WILL UPDATE EVERY RE-RENDER WITH THE CORRECT STICKERS
     let stickersToRender = [];
@@ -42,9 +47,16 @@ export default function GalleryBody({galleryState}) {
                 src={sticker.url} 
                 set = {sticker.set}
                 characters={sticker.characters}
+                showModal={showModal}
+                setShowModal={setShowModal}
                 />
                 
             ))}
+
+            {showModal && 
+            <Modal
+            showModal={showModal}
+            setShowModal={setShowModal}/>}
 
         </main>
 

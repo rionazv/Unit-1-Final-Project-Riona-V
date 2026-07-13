@@ -1,18 +1,18 @@
 // import { useState } from "react";
 
-export default function Modal() {
+export default function Modal(props) {
     
 
     return(
 
-        <div id="screen-cover">
+        <div className="screen-cover">
             
             <section id="modal">
 
                     <div id="modal-close-button">
 
-                        <button id="close-btn">CLOSE</button>
-                        
+                        <button id="close-btn" onClick={ () => props.setShowModal(false)}>CLOSE</button>
+
                     </div>
 
                     <div id="modal-body">

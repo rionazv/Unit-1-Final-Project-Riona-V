@@ -1,3 +1,5 @@
+// import { useState } from "react";
+
 export default function GalleryItem(props) {
 
     let stickerSource = props.src;
@@ -17,7 +19,7 @@ export default function GalleryItem(props) {
                 src={stickerSource}
                 alt={stickerInformation}
                 title={stickerCharacters}
-                onClick={handleStickerClick}
+                onClick={ () => props.setShowModal(true)}
             />
 
             <a href={stickerSource} target="_blank" download="sticker.png">
@@ -28,8 +30,4 @@ export default function GalleryItem(props) {
 
     );
 
-}
-
-function handleStickerClick(event) {
-    console.log(event.target.alt);
 }
