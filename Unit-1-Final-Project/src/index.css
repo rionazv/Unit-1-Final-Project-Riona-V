@@ -7,6 +7,10 @@ html, body {
   padding: 0;
 }
 
+:root {
+  overflow: hidden;
+}
+
 div {
   border: 1px solid black;
 }
@@ -38,7 +42,6 @@ div {
   
   flex: 1;
   overflow: hidden;
-  overflow-y: scroll;
 }
 
 #footer-section {
