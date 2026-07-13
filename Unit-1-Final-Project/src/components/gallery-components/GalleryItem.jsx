@@ -11,6 +11,7 @@ export default function GalleryItem(props) {
     return (
 
         <div className="gallery-item">
+
             <img 
                 className="sticker"
                 src={stickerSource}
@@ -18,6 +19,11 @@ export default function GalleryItem(props) {
                 title={stickerCharacters}
                 onClick={handleStickerClick}
             />
+
+            <a href={stickerSource} target="_blank" download="sticker.png">
+                <img id="download-btn" src="./src/assets/misc/downloadbutton.png" alt="Download Button" />
+            </a>
+
         </div>
 
     );

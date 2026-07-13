@@ -25,6 +25,7 @@ export default function GalleryBody({galleryState}) {
 
     }
 
+    // IF NOTHING WAS FOUND IN THE SET, SHOW A MESSAGE TO LET THE USER KNOW
     if(stickersToRender.length === 0) {
         return <NoResultsNotif/>
     }

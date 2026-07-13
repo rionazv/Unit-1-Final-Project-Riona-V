@@ -21,6 +21,7 @@
   aspect-ratio: 1;
   background-color: greenyellow;
   transition: transform 0.2s ease-in-out;
+  position: relative;
 }
 
 .gallery-item:hover {
@@ -33,6 +34,7 @@
     overflow: hidden;
     width: 100%;
     object-fit: cover;
+    position: absolute;
 }
 
 #no-results-notif {
@@ -54,4 +56,11 @@
 
 #no-results-msg {
   margin: auto;
+}
+
+#download-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 20%;
 }
