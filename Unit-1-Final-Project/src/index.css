@@ -29,6 +29,18 @@ div {
   align-items: inherit;
 }
 
+#main-body-section {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  width: 100vw;
+
+  box-sizing: border-box;
+  
+  flex: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
 #footer-section {
   background-color: lightsteelblue;
   width: 100%;
@@ -42,7 +54,7 @@ div {
 /* DESKTOP STYLES */
 @media screen and (min-width: 768px) {
   #gallery-section {
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
