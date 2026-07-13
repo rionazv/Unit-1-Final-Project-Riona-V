@@ -30,4 +30,10 @@
 .chibi-icon {
   height: 90%;
   margin: 0px 5px;
+  filter: grayscale(100%);
+}
+
+.chibi-icon:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
 }
