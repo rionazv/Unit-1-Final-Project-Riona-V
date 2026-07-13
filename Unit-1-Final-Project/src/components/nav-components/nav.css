@@ -29,10 +29,16 @@
 .chibi-icon {
   width: 20%;
   margin: 5px;
-  filter: grayscale(100%);
 }
 
 .chibi-icon:hover {
   cursor: pointer;
+}
+
+.is-active {
   filter: grayscale(0%);
+}
+
+.is-not-active {
+  filter: grayscale(100%);
 }
