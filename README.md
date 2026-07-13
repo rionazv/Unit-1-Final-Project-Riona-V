@@ -12,6 +12,7 @@ This project serves two purposes:
 - **Changed:** Page layout to horizontal flow to better accommodate future mobile layouts.
 - **Added:** Download button for each individual image.
 - **Added:** Visual indicator as to which valkyrie icon is clicked in the filter menu (no functionality).
+- **Added:** Mock modal that appears when an image is clicked.
 ### [2026-07-10]
 - **Added:** Logic to filter the stickers by set using the dropdown menu.
 ### [2026-07-09]
