@@ -3,7 +3,7 @@ export default function GalleryItem(props) {
     let stickerSource = props.src;
     let stickerSet = props.set;
     let stickerCharacters = props.characters;
-    let stickerInformation = `Stickers from the "${stickerSet}" set. Featuring ${stickerCharacters}.`;
+    let stickerInformation = `Sticker from the "${stickerSet}" set. Featuring ${stickerCharacters}.`;
 
     return (
 
