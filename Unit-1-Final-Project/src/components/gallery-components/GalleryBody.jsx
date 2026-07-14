@@ -6,8 +6,10 @@ import NoResultsNotif from "./NoResultsNotif.jsx";
 
 export default function GalleryBody({galleryState}) {
 
-    // SET STATE: SHOW MODAL OR NOT?
+    // A WHOLE LOT OF USESTATES TO DISPLAY THE MODAL AND INFORMATION BECAUSE I HAD TO GET INFORMATION OUT OF CHILDREN
     const [showModal, setShowModal] = useState(false);
+    const [selectedSticker, getSelectedSticker] = useState(null);
+    const [selectedDescription, getSelectedDescription] = useState(null);
 
     // CREATE AN ARRAY THAT WILL UPDATE EVERY RE-RENDER WITH THE CORRECT STICKERS
     let stickersToRender = [];
@@ -47,6 +49,8 @@ export default function GalleryBody({galleryState}) {
                 src={sticker.url} 
                 set = {sticker.set}
                 characters={sticker.characters}
+                getSelectedSticker={getSelectedSticker}
+                getSelectedDescription={getSelectedDescription}
                 showModal={showModal}
                 setShowModal={setShowModal}
                 />
@@ -56,7 +60,9 @@ export default function GalleryBody({galleryState}) {
             {showModal && 
             <Modal
             showModal={showModal}
-            setShowModal={setShowModal}/>}
+            setShowModal={setShowModal}
+            src={selectedSticker}
+            alt={selectedDescription}/>}
 
         </main>
 

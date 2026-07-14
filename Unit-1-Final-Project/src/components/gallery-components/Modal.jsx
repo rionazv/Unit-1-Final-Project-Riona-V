@@ -5,27 +5,32 @@ export default function Modal(props) {
 
     return(
 
-        <div className="screen-cover">
+        <div className="screen-cover" onClick={ () => props.setShowModal(false)}>
             
             <section id="modal">
 
-                    <div id="modal-close-button">
+                    <div id="modal-close-div">
 
                         <button id="close-btn" onClick={ () => props.setShowModal(false)}>CLOSE</button>
 
                     </div>
 
-                    <div id="modal-body">
+                    {/* MODAL DATA */}
+                    <div id="modal-body-div">
 
-                        <img id="modal-image" src="" alt="Image missing!" title=""/>
+                        <img id="modal-image" src={props.src} alt={props.alt} />
 
                         <div id="modal-information">
+
+                            <p>{props.alt}</p>
 
                         </div>
 
                     </div>
 
-                    <div id="modal-download">
+                    <div id="modal-download-div">
+
+                        <button><a href={props.src} target="_blank" download="sticker.png">Download</a></button>
 
                     </div>
 
