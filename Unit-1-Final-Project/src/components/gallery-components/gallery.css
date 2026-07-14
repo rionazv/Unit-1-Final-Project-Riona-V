@@ -135,3 +135,18 @@
   width: 100%;
   height: 10%;
 }
+
+/* TABLET STYLES */
+@media screen and (max-width: 768px) {
+
+  #modal {
+    width: 80%;
+    height: 60%;
+  }
+
+  #modal-body-div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
