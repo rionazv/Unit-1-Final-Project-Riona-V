@@ -1,0 +1,9 @@
+#header-section {
+  background-color: peachpuff;
+  width: 100%;
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 15% 55% 30%;
+  justify-content: left;
+  align-items: center;
+}
