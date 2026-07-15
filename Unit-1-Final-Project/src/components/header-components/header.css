@@ -3,7 +3,8 @@
   width: 100%;
   height: 15vh;
   display: grid;
-  grid-template-columns: 15% 55% 30%;
+  grid-template-columns: 15% 85%;
   justify-content: left;
   align-items: center;
+  text-align: center;
 }

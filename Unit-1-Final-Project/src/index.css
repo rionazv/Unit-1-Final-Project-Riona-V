@@ -68,6 +68,21 @@ div {
   }
 
   #nav-section {
+    flex-direction: row;
+    height: 5vh;
+  }
+
+  #nav-dropdown {
+    height: 100%;
+    width: 100%;
+  }
+
+  #sticker-set {
+    height: 80%;
+    width: 90%;
+  }
+
+  #nav-icons {
     display: none;
   }
 
