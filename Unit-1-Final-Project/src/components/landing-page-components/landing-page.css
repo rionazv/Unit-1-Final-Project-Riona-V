@@ -1,0 +1,39 @@
+#home-body-section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(254, 255, 216);
+
+  box-sizing: border-box;
+  
+  flex: 1;
+  overflow: auto;
+}
+
+#about-body-section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(189, 250, 194);
+
+  box-sizing: border-box;
+  
+  flex: 1;
+  overflow: auto;
+}
+
+.big-display-valk {
+    height: 100%;
+    object-fit: contain;
+}
+
+.landing-page-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.info-blurb {
+    padding: 20px;
+}

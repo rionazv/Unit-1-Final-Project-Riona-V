@@ -1,4 +1,8 @@
 ## Changelog
+### [2026-07-15]
+- **Added:** Home and About pages!
+- **Added:** Routing between new pages as well as sticker page.
+- **Fixed:** Filter menu now displays on mobile layouts, minus the valkyrie icons.
 ### [2026-07-13]
 - **Changed:** Page layout to horizontal flow to better accommodate future mobile layouts.
 - **Added:** Download button for each individual image.

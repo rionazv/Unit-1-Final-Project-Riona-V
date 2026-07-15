@@ -1,6 +1,7 @@
 @import url(./components/header-components/header.css);
 @import url(./components/nav-components/nav.css);
 @import url(./components/gallery-components/gallery.css);
+@import url(./components/landing-page-components/landing-page.css);
 
 html, body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -58,6 +59,12 @@ div {
 /* TABLET STYLES */
 @media screen and (max-width: 768px) {
 
+  #home-body-section, #about-body-section {
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+  }
+
   #gallery-section {
     grid-template-columns: repeat(4, 1fr);
     flex-grow: 1;
@@ -68,6 +75,21 @@ div {
   }
 
   #nav-section {
+    flex-direction: row;
+    height: 5vh;
+  }
+
+  #nav-dropdown {
+    height: 100%;
+    width: 100%;
+  }
+
+  #sticker-set {
+    height: 80%;
+    width: 90%;
+  }
+
+  #nav-icons {
     display: none;
   }
 
