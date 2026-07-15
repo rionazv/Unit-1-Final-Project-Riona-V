@@ -1,0 +1,23 @@
+#home-body-section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(254, 255, 216);
+
+  box-sizing: border-box;
+  
+  flex: 1;
+  overflow: auto;
+}
+
+#about-body-section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(189, 250, 194);
+
+  box-sizing: border-box;
+  
+  flex: 1;
+  overflow: auto;
+}
