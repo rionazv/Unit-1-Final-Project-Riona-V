@@ -8,7 +8,7 @@ export default function Header() {
 
             <PageNavigation />
 
-            <h1>Hyperion Hoard</h1>
+            <h1><i>Hyperion Hoard</i></h1>
 
         </header>
 
