@@ -7,7 +7,6 @@
   box-sizing: border-box;
   
   flex: 1;
-  overflow: auto;
 }
 
 #about-body-section {
@@ -23,17 +22,19 @@
 }
 
 .big-display-valk {
-    height: 100%;
-    object-fit: contain;
+  height: 100%;
+  object-fit: contain;
+  margin: 0px 10px;
 }
 
 .landing-page-info {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  overflow: scroll;
 }
 
 .info-blurb {
-    padding: 20px;
+  padding: 10px;
 }

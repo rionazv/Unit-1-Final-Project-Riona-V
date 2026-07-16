@@ -6,12 +6,12 @@ export default function PageNavigation() {
     return(
 
         <nav id="page-navigation-div">
-            
-            <Link to="/">Home</Link> <br /><br />
 
-            <Link to="/about">About</Link> <br /><br />
-
-            <Link to="/stickers">Stickers</Link> <br /><br />
+            <ul id="page-navigation-list">
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/stickers">Stickers</Link></li>
+            </ul>
 
         </nav>
 

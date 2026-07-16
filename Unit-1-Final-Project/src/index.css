@@ -62,7 +62,7 @@ div {
   #home-body-section, #about-body-section {
     flex-direction: column;
     flex-grow: 1;
-    overflow: auto;
+    overflow: scroll;
   }
 
   #gallery-section {
