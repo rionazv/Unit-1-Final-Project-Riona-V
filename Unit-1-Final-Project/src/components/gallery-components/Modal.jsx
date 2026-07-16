@@ -1,5 +1,3 @@
-// import { useState } from "react";
-
 export default function Modal(props) {
     
 
@@ -10,9 +8,11 @@ export default function Modal(props) {
             <section id="modal">
 
                     <div id="modal-close-div">
-
-                        <button id="close-btn" onClick={ () => props.setShowModal(false)}>CLOSE</button>
-
+                        
+                        <div id="modal-title"><p>Item Details</p></div>
+                        
+                        <div id="modal-close-btn-div"><button id="modal-close-btn" onClick={ () => props.setShowModal(false)}>X</button></div>
+                        
                     </div>
 
                     {/* MODAL DATA */}
