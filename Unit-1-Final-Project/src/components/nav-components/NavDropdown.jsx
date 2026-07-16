@@ -20,7 +20,7 @@ export default function NavDropdown({setGalleryState}) {
                 <option value="From Finality, the Origin">From Finality, the Origin</option>
                 <option value="Soaring Good Fortune">Soaring Good Fortune</option>
                 <option value="Dance of Life and Death">Dance of Life and Death</option>
-                <option value="EVIL test">EVIL test</option>
+                <option value="No Results Test">No Results Test</option>
 
             </select>
 

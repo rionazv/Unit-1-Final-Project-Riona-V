@@ -20,10 +20,6 @@ li, a {
   overflow: hidden;
 }
 
-/* div {
-  border: 1px solid black;
-} */
-
 #content {
   display: flex;
   flex-direction: column;
@@ -47,7 +43,6 @@ li, a {
 }
 
 #footer-section {
-  /* background-color: lightsteelblue; */
   width: 100%;
   height: 3vh;
   display: inherit;
@@ -57,7 +52,7 @@ li, a {
 
 
 /* DESKTOP STYLES */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1340px) {
 
   #gallery-section {
     grid-template-columns: repeat(6, 1fr);
@@ -82,11 +77,20 @@ button:hover {
 }
 
 /* TABLET STYLES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1340px) {
 
   #header-section {
     text-align: center;
   }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  #page-navigation-list {
+  width: 100%;
+  padding: 0;
+}
 
   #home-body-section, #about-body-section {
     flex-direction: column;

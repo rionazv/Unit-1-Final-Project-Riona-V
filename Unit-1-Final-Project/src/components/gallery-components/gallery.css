@@ -46,7 +46,9 @@
 
 #no-results-notif {
   display: flex;
+  height: 100%;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 
   grid-column: 1/-1;

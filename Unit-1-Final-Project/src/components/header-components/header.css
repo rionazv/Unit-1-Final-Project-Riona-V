@@ -1,5 +1,4 @@
 #header-section {
-  /* background-color: peachpuff; */
   width: 100%;
   height: 15vh;
   display: grid;
@@ -14,4 +13,26 @@
 h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 3em;
+}
+
+#page-navigation-list {
+  width: 50%;
+}
+
+#page-navigation-list > li {
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 5px;
+  padding: 5px;
+}
+
+#page-navigation-list > li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px;
 }
