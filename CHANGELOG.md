@@ -1,4 +1,11 @@
 ## Changelog
+### [2026-07-19]
+- **Added:** Added missing textures to some site areas
+- **Fixed:** Widths of some elements displaying awkwardly at tablet or mobile sizes
+- **Changed:** Minor text alterations to help make page functions more self-explanatory
+- **Fixed:** For assignment purposes, cleaned up and commented out my code.
+### [2026-07-16]
+- **Changed:** Styling of entire site. Changed styling of gallery, navigation menus, and headers to reflect HI3 UI.
 ### [2026-07-15]
 - **Added:** Home and About pages!
 - **Added:** Routing between new pages as well as sticker page.

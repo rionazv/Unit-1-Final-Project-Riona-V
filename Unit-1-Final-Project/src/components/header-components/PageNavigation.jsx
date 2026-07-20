@@ -5,12 +5,12 @@ export default function PageNavigation() {
 
     return(
 
-        <nav id="page-navigation-div">
+        <nav>
 
-            <ul id="page-navigation-list">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/stickers">Stickers</Link></li>
+            <ul id="page-navigation-ul">
+                <Link to="/"><li className="page-navigation-list">Home</li></Link>
+                <Link to="/about"><li className="page-navigation-list">About</li></Link>
+                <Link to="/stickers"><li className="page-navigation-list">Stickers</li></Link>
             </ul>
 
         </nav>

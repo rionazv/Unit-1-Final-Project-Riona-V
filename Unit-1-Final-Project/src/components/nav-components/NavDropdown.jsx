@@ -16,7 +16,7 @@ export default function NavDropdown({setGalleryState}) {
             
             <select name="sticker-set" id="sticker-set" onChange={handleChange}>
 
-                <option value="All">All</option>
+                <option value="All">All Sticker Sets</option>
                 <option value="From Finality, the Origin">From Finality, the Origin</option>
                 <option value="Soaring Good Fortune">Soaring Good Fortune</option>
                 <option value="Dance of Life and Death">Dance of Life and Death</option>

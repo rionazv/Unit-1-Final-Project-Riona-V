@@ -1,6 +1,4 @@
 #gallery-section {
-  /* background-color: lightsalmon; */
-
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
@@ -18,7 +16,6 @@
 
 .gallery-item {
   aspect-ratio: 1;
-  /* background-color: greenyellow; */
   transition: transform 0.2s ease-in-out;
   position: relative;
 
@@ -50,6 +47,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   grid-column: 1/-1;
   justify-self: center;
@@ -59,7 +57,7 @@
 }
 
 #no-results-notif img {
-  width: 200px;
+  width: 300px;
   margin: auto;
 }
 
@@ -109,7 +107,9 @@
 
   border-radius: 20px;
   border: 2px solid white;
-  background-image: linear-gradient(to bottom, #1a3f66, #1581b5);
+  background-image: url(../../assets/misc/modalbg.png);
+  background-size: cover;
+  box-shadow: 0 0 20px #2f8fdd;
 }
 
 #modal-close-div {
@@ -124,7 +124,7 @@
 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background-image: linear-gradient(to bottom, #11253f, #1a3f66);
+  background-image: linear-gradient(to bottom, rgba(17, 37, 63, 0.8), rgba(26, 63, 102, 0.8));
 }
 
 #modal-title {
@@ -136,6 +136,7 @@
 
 #modal-close-btn {
   margin-right: auto;
+  padding: 10px 15px;
 }
 
 #modal-body-div {
@@ -186,7 +187,7 @@
 }
 
 /* TABLET STYLES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1340px) {
 
   #modal {
     width: 80%;

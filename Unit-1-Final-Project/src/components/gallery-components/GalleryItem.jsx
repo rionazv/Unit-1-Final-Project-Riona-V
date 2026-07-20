@@ -1,5 +1,6 @@
 export default function GalleryItem(props) {
 
+    // Data has been mapped - store received data into variables for easier use.
     let stickerSource = props.src;
     let stickerSet = props.set;
     let stickerCharacters = props.characters;
@@ -15,9 +16,9 @@ export default function GalleryItem(props) {
                 alt={stickerInformation}
                 title={stickerCharacters}
                 onClick={ (event) => {
-                    props.setShowModal(true); 
-                    props.getSelectedSticker(event.target.src);
-                    props.getSelectedDescription(event.target.alt);
+                    props.setShowModal(true); {/*Opens up a modal with the clicked image.*/}
+                    props.getSelectedSticker(event.target.src); {/*Puts the image into the modal.*/}
+                    props.getSelectedDescription(event.target.alt); {/*Puts the image description into the modal.*/}
                 }}
             />
 

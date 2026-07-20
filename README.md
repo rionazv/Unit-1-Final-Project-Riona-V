@@ -6,3 +6,6 @@ Honkai Impact 3rd is a Chinese mobile ARPG developed by Hoyoverse. At the time o
 This project serves two purposes:
 - **Data preservation.** As the game nears the end of its life, I would like to preserve as many assets as I can in one fansite dedicated to the game's English-speaking audience.
 - **Organization.** I plan to expand the assets that I collect over time and present them in a simple, digestible, and filterable format for those who would like to download them. No more jumping between Hoyolab, Miyoushe, Baike, and unmaintained wikis!
+
+## NOTE!
+The secondary filter (filter by specific valkyrie) is currently not functional. This is a major feature I would like to get to.

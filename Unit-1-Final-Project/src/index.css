@@ -9,6 +9,7 @@ html, body {
   color: white;
   margin: 0;
   padding: 0;
+  scrollbar-width: thin;
 }
 
 li, a {
@@ -20,6 +21,11 @@ li, a {
   overflow: hidden;
 }
 
+body {
+  background-image: url(./assets/misc/taixuan.jpg);
+  background-size: cover;
+}
+
 #content {
   display: flex;
   flex-direction: column;
@@ -28,7 +34,8 @@ li, a {
   height: 100vh;
   overflow: hidden;
 
-  background-image: linear-gradient(to bottom, #1a2242, #7ebfdd);
+  background: rgba(31, 53, 99, 0.35);
+  backdrop-filter: blur(20px);
 }
 
 #main-body-section {
@@ -50,16 +57,6 @@ li, a {
   align-items: inherit;
 }  
 
-
-/* DESKTOP STYLES */
-@media screen and (min-width: 1340px) {
-
-  #gallery-section {
-    grid-template-columns: repeat(6, 1fr);
-  }
-
-}
-
 button {
   background-color: #ffe14b;
   color: black;
@@ -76,26 +73,40 @@ button:hover {
   box-shadow: 0 0 10px #ffe14b;
 }
 
+/* DESKTOP STYLES */
+@media screen and (min-width: 1340px) {
+
+  #gallery-section {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+}
+
 /* TABLET STYLES */
 @media screen and (max-width: 1340px) {
 
   #header-section {
     text-align: center;
+    grid-template-columns: 25% 75%;
   }
 
   h1 {
     font-size: 2em;
   }
 
-  #page-navigation-list {
-  width: 100%;
-  padding: 0;
-}
+  .page-navigation-list {
+    width: 100%;
+    padding: 0;
+  }
 
   #home-body-section, #about-body-section {
     flex-direction: column;
     flex-grow: 1;
     overflow: scroll;
+  }
+
+  .info-blurb {
+    width: 80%;
   }
 
   #gallery-section {
