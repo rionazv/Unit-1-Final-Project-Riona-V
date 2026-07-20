@@ -2,4 +2,8 @@
     base = "Unit-1-Final-Project"
     command = "npm run build"
     publish = "dist"
-    
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
