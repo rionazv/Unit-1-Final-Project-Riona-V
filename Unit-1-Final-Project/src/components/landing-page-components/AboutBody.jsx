@@ -35,9 +35,9 @@ export default function AboutBody() {
                 <div className="info-blurb">
                     <h2>About Captain</h2>
                     <p>
-                        Server: NA <br />
-                        Captain since: 06/04/2018 <br />
-                        Favorites: Herrscher trio, Mobius, Pardofelis, Griseo, Susannah, PROMETHEUS, Coralie, Helia, Vita <br />
+                        Server: NA <br /><br />
+                        Captain since: 06/04/2018 <br /><br />
+                        Favorites: Herrscher trio, Mobius, Pardofelis, Griseo, Susannah, PROMETHEUS, Coralie, Helia, Vita <br /><br />
                         Battlesuits owned: 97/101
                     </p>
 
@@ -52,9 +52,9 @@ export default function AboutBody() {
 
                     <form action="">
                         <label htmlFor="captname">Captain Name: </label> <br />
-                        <input type="text" id="captname" title="Captain Name" style={{cols: 50}}/> <br /><br />
+                        <input type="text" id="captname" title="Captain Name"/> <br /><br />
                         <label htmlFor="msg">Message: </label> <br />
-                        <textarea id="msg" title="Message"  style={{cols: 50}}/> <br /><br />
+                        <textarea id="msg" title="Message" cols={21}/> <br /><br />
                         <input type="submit" value="Submit"/>
                     </form>
 
