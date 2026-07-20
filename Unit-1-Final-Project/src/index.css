@@ -22,7 +22,7 @@ li, a {
 }
 
 body {
-  background-image: url(./assets/misc/taixuan.jpg);
+  background-image: url(../public/misc/taixuan.jpg);
   background-size: cover;
 }
 

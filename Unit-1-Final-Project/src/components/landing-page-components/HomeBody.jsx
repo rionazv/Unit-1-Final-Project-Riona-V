@@ -4,7 +4,7 @@ export default function HomeBody() {
 
         <section id="home-body-section">
 
-            <img className="big-display-valk" src="./src/assets/misc/Kiana.png" alt="Valkyrie splash." />
+            <img className="big-display-valk" src="../../../public/misc/Kiana.png" alt="Valkyrie splash." />
 
             <section className="landing-page-info">
 

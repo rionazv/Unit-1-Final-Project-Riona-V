@@ -107,7 +107,7 @@
 
   border-radius: 20px;
   border: 2px solid white;
-  background-image: url(../../assets/misc/modalbg.png);
+  background-image: url(../../../public/misc/modalbg.png);
   background-size: cover;
   box-shadow: 0 0 20px #2f8fdd;
 }

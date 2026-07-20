@@ -7,7 +7,7 @@ export default function NoResultsNotif() {
 
             <div id="no-results-notif">
                 
-                <img src="./src/assets/misc/prommy.png" alt="Klein found nothing matching those search parameters." />
+                <img src="../../../public/misc/prommy.png" alt="Klein found nothing matching those search parameters." />
 
                 <p id="no-results-msg"><i>
                     PROMETHEUS has searched the hoard, but couldn't find anything like that. <br />
