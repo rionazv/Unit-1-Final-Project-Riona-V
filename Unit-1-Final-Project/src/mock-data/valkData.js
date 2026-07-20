@@ -1,7 +1,7 @@
 export const valkData = [
     {
         id: "Kiana Kaslana",
-        url: "./src/assets/valk-chibi-icons/kiana.png",
+        url: "/valk-chibi-icons/kiana.png",
         characters: "Kiana"
     },
     {
