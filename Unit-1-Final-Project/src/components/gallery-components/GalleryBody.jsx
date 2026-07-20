@@ -57,6 +57,7 @@ export default function GalleryBody({galleryState}) {
                 
             ))}
 
+            {/* Conditionally render the modal. */}
             {showModal && 
             <Modal
             showModal={showModal}

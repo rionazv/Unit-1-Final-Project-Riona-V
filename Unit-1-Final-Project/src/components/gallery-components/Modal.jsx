@@ -3,7 +3,7 @@ export default function Modal(props) {
 
     return(
 
-        <div className="screen-cover" onClick={ () => props.setShowModal(false)}>
+        <div className="screen-cover" onClick={ () => props.setShowModal(false)}> {/* You can click off the modal to close it.*/}
             
             <section id="modal">
 

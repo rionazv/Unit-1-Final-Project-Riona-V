@@ -7,31 +7,25 @@ import HomeBody from './components/landing-page-components/HomeBody'
 import AboutBody from './components/landing-page-components/AboutBody'
 
 function Home() {
-
+  // Homepage
   return(
-
     <HomeBody/>
-
   );
 
 }
 
 function About() {
-
+  // About Page
   return(
-
     <AboutBody/>
-
   );
 
 }
 
 function Stickers() {
-
+  // Sticker organizer
   return(
-
     <MainBody/>
-
   );
 
 }

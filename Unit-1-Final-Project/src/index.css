@@ -57,16 +57,6 @@ body {
   align-items: inherit;
 }  
 
-
-/* DESKTOP STYLES */
-@media screen and (min-width: 1340px) {
-
-  #gallery-section {
-    grid-template-columns: repeat(6, 1fr);
-  }
-
-}
-
 button {
   background-color: #ffe14b;
   color: black;
@@ -83,6 +73,15 @@ button:hover {
   box-shadow: 0 0 10px #ffe14b;
 }
 
+/* DESKTOP STYLES */
+@media screen and (min-width: 1340px) {
+
+  #gallery-section {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+}
+
 /* TABLET STYLES */
 @media screen and (max-width: 1340px) {
 
@@ -96,9 +95,9 @@ button:hover {
   }
 
   .page-navigation-list {
-  width: 100%;
-  padding: 0;
-}
+    width: 100%;
+    padding: 0;
+  }
 
   #home-body-section, #about-body-section {
     flex-direction: column;
